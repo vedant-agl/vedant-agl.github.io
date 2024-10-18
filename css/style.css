@@ -1,9 +1,9 @@
 /*
 Description: Personal website
-Version: 2.0 (November 2020)
-Author: Jorge Abad
-Email: jorgeabad@bde.es
-Website: https://jorge-abad.github.io/
+Version: 1.0 (October 2024)
+Author: Vedant Agarwal
+Email: vedant.agarwal@cemfi.edu.es
+Website: https://vedant-agl.github.io/
 */
 
 
@@ -164,7 +164,7 @@ a:focus {
     border-top: #eaeaea solid 1px;
     border-bottom: #eaeaea solid 1px;
     padding-top: 5px;
-    width:19.9999%;
+    width:24.9999%;
 }
 
 /*@media (max-width : 768px) {
@@ -345,7 +345,7 @@ a:focus {
 
 .references{
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 18px;
 }
 .references ul {
@@ -366,8 +366,9 @@ a:focus {
 .references h3 {
   color: #3d3d50;
   font-weight: 600;
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 20px;
+  font-size: 18px;
   margin: 0;
   line-height: 0;
 }
@@ -387,7 +388,7 @@ a:focus {
 .reference-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
-  gap: 20px; /* Space between the references */
+  gap: 10px; /* Space between the references */
 }
 
 .reference-item {
