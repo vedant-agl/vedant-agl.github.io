@@ -168,7 +168,7 @@ a:focus {
     width:24.9999%;
 }
 
-@media (max-width : 768px) {
+/*@media (max-width : 768px) {
     .topnav {
         padding: 0;
     }
@@ -176,7 +176,7 @@ a:focus {
         float: none;
         width: 100%;
     }
-}
+}*/
 
 
 /* Change color on current */
