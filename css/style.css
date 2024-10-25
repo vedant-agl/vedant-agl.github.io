@@ -418,7 +418,7 @@ a:focus {
 
 @media (max-width : 768px) {
     .contact {
-      width: 100%;
+      width: 80%;
     }
     .contact-item {
       float: none;
