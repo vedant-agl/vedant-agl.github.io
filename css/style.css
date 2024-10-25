@@ -133,14 +133,14 @@ a:focus {
   color: #888888;
 }
 
-@media (max-width : 768px) {
+/* @media (max-width : 768px) {
     .header {
       padding: 0;
     }
     .logo {
       display: none;
     }
-}
+} */
 
 /* Style the top navigation bar */
 .topnav {
@@ -243,9 +243,9 @@ a:focus {
   padding: 5px 5px 5px 5px;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) { */
   /* For mobile phones: */
-  .grid-container {
+/*  .grid-container {
     display: grid;
     grid-template-areas:
       'main-index'
@@ -265,17 +265,17 @@ a:focus {
     max-width: 300px;
 
   }
-}
+} */
 
 .grid-container > div {
   font-size: 16px;
 }
 
-@media (max-width : 768px) {
+/* @media (max-width : 768px) {
     .main-col {
         padding: 40px 30px 0px 30px;
     }
-}
+} */
 
 .button {
   font-family: 'Source Sans Pro', sans-serif;
@@ -416,7 +416,7 @@ a:focus {
 
 
 
-@media (max-width : 768px) {
+/* @media (max-width : 768px) {
     .contact {
       width: 100%;
     }
@@ -427,7 +427,7 @@ a:focus {
     .contact {
       text-align: left;
     }
-}
+} */
 
 /* Footer */
 .footer {
@@ -482,7 +482,7 @@ a:focus {
     color: #777777;
 }
 
-@media (max-width : 768px) {
+/* @media (max-width : 768px) {
     .research {
       padding: 30px 25px 20px 25px;
     }
@@ -501,7 +501,7 @@ a:focus {
         font-size: 24px;
         align: right;
     }
-}
+} */
 
 .research b {
   font-weight: 600;
@@ -616,7 +616,7 @@ a:focus {
   max-width: 300px;
 }
 
-@media (max-width : 768px) {
+/* @media (max-width : 768px) {
     .teaching {
       padding: 40px 30px 20px 15px;
     }
@@ -634,7 +634,7 @@ a:focus {
       margin-top: -5px;
       padding-bottom: 15px;
     }
-}
+} */
 
 .teaching h2 {
     margin         : 0 0 20px;
@@ -759,25 +759,25 @@ a:focus {
   padding-bottom: 10px;
 }
 
-@media (max-width : 768px) {
+/* @media (max-width : 768px) {
     .cv {
       padding: 40px 30px 20px 15px;
       padding-top: 160px;
       margin-top: -140px;
     }
-}
+} */
 
 .links {
   padding: 15px 5px 5px 25px;
 }
 
-@media (max-width : 768px) {
+/* @media (max-width : 768px) {
     .links {
       padding: 40px 30px 20px 15px;
       padding-top: 160px;
       margin-top: -140px;
     }
-}
+} */
 
 
 
@@ -842,4 +842,91 @@ input[type='checkbox'] {
   padding-left: 3.5%;
   padding-right: 5%;
   margin: 0;
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+  body {
+      font-size: 13px;
+      line-height: 1.6em;
+  }
+
+  h1 {
+      font-size: 22px;
+  }
+
+  h2 {
+      font-size: 16px;
+  }
+
+  h3, h4, h5, h6 {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-wrapper {
+      max-width: 100%;
+      min-width: auto;
+      padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .topnav a {
+      float: none;
+      width: 100%;
+      padding: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+      grid-template-areas:
+          'main-index'
+          'right-index';
+      padding: 0 10px;
+  }
+
+  .col-right {
+      max-width: 100%;
+      padding: 0;
+  }
+
+  .col-main {
+      padding-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+      padding: 10px 10px;
+      min-height: auto;
+  }
+
+  .intro-col, .main-col, .res-main-col, .home {
+      padding: 10px;
+  }
+
+  .research, .teaching, .cv, .links {
+      padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo, .picture {
+      display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+      padding: 5px 10px;
+      font-size: 10px;
+  }
 }
