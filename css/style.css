@@ -845,6 +845,33 @@ input[type='checkbox'] {
 }
 
 
+.always-visible-content {
+  max-height: none; /* Allow content to expand fully */
+  overflow: visible; /* Ensure all content is shown */
+}
+
+.toggle:checked + .lbl-toggle + .always-visible-content {
+  max-height: 6500px;
+}
+
+.toggle:checked + .lbl-toggle {
+}
+
+.always-visible-content .content-inner {
+  text-align: left;
+}
+.abstract .always-visible-content .content-inner {
+  text-align: justify;
+  padding-top: 1.5%;
+  padding-bottom: 2.5%;
+  padding-left: 3.5%;
+  padding-right: 5%;
+  margin: 0;
+}
+
+
+
+
 
 
 
