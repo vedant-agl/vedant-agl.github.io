@@ -215,13 +215,13 @@ a:focus {
 
 .res-main-col {
   text-align: justify;
-  margin-top: -40px;
+  margin-top: -60px;
   color: #3d3d50;
 }
 
 .home {
   text-align: justify;
-  padding: 20px 30px 0 30px;
+  padding: 0px 30px 0px 0px;
   overflow: hidden;
   line-height: 21px;
 }
@@ -439,7 +439,7 @@ a:focus {
 
 /* Research */
 .research {
-  padding: 40px 80px 20px 65px;
+  padding: 40px 80px 20px 0px;
   display:block;
 }
 
@@ -449,7 +449,7 @@ a:focus {
     border-radius: 4px;
     clear: both;
     margin: 15px 0px 0px 0px;
-    padding: 15px 17px 15px 17px;
+    padding: 15px 17px 15px 0px;
 }
 
 
@@ -958,3 +958,11 @@ input[type='checkbox'] {
       font-size: 10px;
   }
 } */
+
+
+.section-divider {
+  border: none;
+  height: 2px;
+  background-color: #ccc; /* Change color as needed */
+  margin: 10px 0; /* Adjust spacing */
+}
