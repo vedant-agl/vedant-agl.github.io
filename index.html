@@ -1,248 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- Global site tag (gtag.js) -->
-  <script async   src="https://www.googletagmanager.com/gtag/js?id=UA-111677767-1"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <title>Vedant Agarwal</title>
+    <meta name="author" content="Vedant Agarwal">
+    <meta name="description" content="Personal website of Vedant Agarwal, PhD Candidate at CEMFI">  
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Import Source Sans Pro font -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic' rel='stylesheet'>
+    <!-- Import Helvetica font -->
+    <link href='https://fonts.googleapis.com/css?family=Helvetica:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic' rel='stylesheet'>
+    <!-- Import Roboto font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Import the font awesome (symbols) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Load code for java-script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        html {
+            scroll-behavior: smooth; /* Optional for smooth scrolling */
+        }
+        #research {
+            scroll-margin-top: 40px; /* Scroll stops 20px above this div */
+        }
+        #policy {
+            scroll-margin-top: 40px; /* Scroll stops 20px above this div */
+        }
+    </style>
 
-  gtag('config', 'UA-111677767-1');
-  </script>
-
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Vedant Agarwal - Home</title>
-  <meta name="author" content="Vedant Agarwal">
-  <meta name="description" content="Personal website of Vedant Agarwal, PhD Candidate at CEMFI">
-
-  <!-- favicon -->
-  <link href="favicon.ico" rel=icon>
-
-  <!-- web-fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
-
-  <!-- CSS stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <div class="main-wrapper">
 
-    <!-- Header -->
+    <!--------------------------------------------------------------------------->
+    <!-- Header  -->
+    <!--------------------------------------------------------------------------->
     <div class="header">
-      <div class="picture">
-        <img src="img\JM_Picture.jpg" alt="" width="150" height="150" style="border:1px solid gray;margin:0px">
-      </div>
-
-      <div class="header-title"><h1>Vedant Agarwal</h1></div>
-      <div class="header-subtitle"><h2>PhD Candidate, <a href="https://www.cemfi.es/" target="_blank">CEMFI</a></h2></div>
-
-        <!-- Contact info -->
+        <div class="photo">
+            <img src="img\JM_Picture.jpg" alt="Vedant Agarwal" width="150" height="150" style="border:1px solid gray;margin:0px">
+          </div>
+          
+        <div class="title">
+            Vedant Agarwal
+        </div>
+        <div class="subtitle">
+            PhD Candidate, CEMFI
+        </div>
         <div class="contact">
-          <ul>
-            <li><a href="mailto:vedant.agarwal@cemfi.edu.es" target="_blank"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp; vedant.agarwal@cemfi.edu.es</a></li>
-            <li><a href="https://maps.app.goo.gl/129to38XE1gwbt1L7" target="_blank"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;&nbsp; Casado del Alisal 5, 28014 Madrid</a></li>
-            <li><a href="tel:+34642949601" target="_blank"><i class="fa fa-phone fa-fw" aria-hidden="true"></i>&nbsp;&nbsp; (+34) 64 294 9601</a></li>
-          </ul>
+            <ul>
+              <li><a href="mailto:vedant.agarwal@cemfi.edu.es" target="_blank"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>&nbsp;&nbsp; vedant.agarwal@cemfi.edu.es</a></li>
+              <li><a href="https://maps.app.goo.gl/129to38XE1gwbt1L7" target="_blank"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp;&nbsp; Casado del Alisal 5, 28014 Madrid, Spain</a></li>
+              <li><a href="tel:+34642949601" target="_blank"><i class="fa fa-phone fa-fw" aria-hidden="true"></i>&nbsp;&nbsp; (+34) 642 94 9601</a></li>
+            </ul>
         </div>
     </div>
 
-    <hr class="section-divider">
-
-    <!-- Navigation bar
+    <!--------------------------------------------------------------------------->
+    <!-- Navigation bar -->
+    <!--------------------------------------------------------------------------->
+<!--
     <div class="topnav">
-      <a class="current" href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="teaching.html">Teaching</a>
-      <a href="cv.html">CV</a>
+        <a class="about" href="#">About</a>
+        <a class="pdf" href="doc\cv\Agarwal_CV.pdf" target="_blank">CV</a>
+        <a class="research" href="#research">Research</a>
+        <a class="policy" href="#policy">Policy</a>
     </div>
-    -->
-
-    <div class="home main-col">
-      <div class="grid-container">
-        <div class="col-main">
-          <p>Welcome! I am a PhD Candidate in Economics at <a href="https://www.cemfi.es/" target="_blank">CEMFI</a>. My research interests are in the fields of banking, corporate finance, and macroeconomics.</p>
-          <a href="doc\cv\Agarwal_CV.pdf" target="_blank">Curriculum vitae</a>
+-->
+      
+    <!--------------------------------------------------------------------------->
+    <!-- About  -->
+    <!--------------------------------------------------------------------------->
+    <div class="section" id="about">
+        <div class="subsection">
+            Welcome! I am a PhD Candidate in Economics at <a href="https://www.cemfi.es/" class="emphasized-link" target="_blank">CEMFI</a>. In August 2025, I will join <a href="https://www.cafral.org.in/" class="emphasized-link" target="_blank">CAFRAL</a>—a research institution promoted by the Reserve Bank of India—as Research Director. My research interests are in the fields of banking, corporate finance, and macroeconomics.
         </div>
-      </div>
+        <!-- download curriculum --> 
+        <div class="subsection">
+            <a class="pdf" href="doc\cv\Agarwal_CV.pdf" target="_blank">Curriculum vitae</a>
+        </div>
     </div>
-
-    <hr class="section-divider">
-
-  <div class="research res-main-col">
-
-    <h2>Working papers</h2>
-
-    <div class="research-item">
-
-      <h3><a href="doc\research\Agarwal_Optimal-DI.pdf" target="_blank">Optimal deposit insurance in a macroeconomic model with runs</a></h3>
-      <!-- <h3>Optimal deposit insurance in a macroeconomic model with runs</h3> -->
-      <div class="date">November 2024</div>
-
-      <div class="abstract">
-        <div class="wrap-collabsible">
-          <input id="col-abs-amms" class="toggle" type="checkbox">
-          <label for="col-abs-amms" class="lbl-toggle">Abstract</label>
-          <!-- <div class="always-visible-content"> -->
-          <div class="collapsible-content">
-            <div class="content-inner">
-              This paper examines the effects of deposit insurance in a 
-              quantitative macroeconomic model that incorporates the risk 
-              of deposit runs faced by banks. During systemic panic episodes, 
-              alert uninsured depositors tend to withdraw their funds from 
-              banks they perceive as vulnerable. While deposit insurance 
-              reduces banks' susceptibility to such runs, it may also weaken 
-              their risk management incentives, resulting in a U-shaped 
-              relationship between insurance coverage and the risk of bank 
-              failure. The model suggests that the welfare-maximizing level 
-              of deposit insurance coverage for the U.S. in 2008 closely aligns 
-              with the observed level. A moderate increase in coverage may be 
-              optimal in contexts of heightened depositor alertness—driven by 
-              technological or demographic factors—, greater fiscal capacity 
-              or stronger capital requirements.
-            </div>
-          </div>
+      
+    <!--------------------------------------------------------------------------->
+    <!-- Research  -->
+    <!--------------------------------------------------------------------------->
+    <div class="section" id="research">
+        <h1>Working papers</h1>
+        <div class="subsection">
+            <a href="doc\research\Agarwal_Optimal-DI.pdf" target="_blank"><paper>Optimal deposit insurance in a macroeconomic model with runs</paper></a><br>
+            November 2024<br>
+            <a class="more" onclick="showhide('abs_jmp')">Abstract</a>&nbsp;
+        <!--    <a class="more" onclick="showhide('other_jmp')">Other versions</a>&nbsp; -->
+        <!--    <a class="more" onclick="showhide('awards_jmp')">Awards</a>&nbsp; -->
+            <p id="abs_jmp" class="abstract" style="display:none">
+                This paper examines the effects of deposit insurance in a quantitative macroeconomic model that incorporates the risk of deposit runs faced by banks. During systemic panic episodes, alert uninsured depositors tend to withdraw their funds from banks they perceive as vulnerable. While deposit insurance reduces banks' susceptibility to such runs, it may also weaken their risk management incentives, resulting in a U-shaped relationship between insurance coverage and the risk of bank failure. The model suggests that the welfare-maximizing level of deposit insurance coverage for the U.S. in 2008 closely aligns with the observed level. A moderate increase in coverage may be optimal in contexts of heightened depositor alertness—driven by technological or demographic factors—, greater fiscal capacity or stronger capital requirements.
+            </p>
+        <!--    <ul id="other_jmp" class="other" style="display:none">
+                <li><a class="link" href="XXX" target="_blank">XXX</a></li>
+            </ul>
+        -->
+        <!--           
+            <ul id="awards_jmp" class="media" style="display:none">
+                <li><a class="link" href="" target="_blank">1</a></li>
+                <li><a class="link" href="" target="_blank">2</a></li>
+            </ul>
+        -->           
         </div>
-      </div>
-
-      <div class="presentations">
-        <div class="wrap-collabsible">
-          <input id="col-pres-1" class="toggle" type="checkbox">
-          <label for="col-pres-1" class="lbl-toggle">Presentations</label>
-          <div class="collapsible-content">
-            <div class="content-inner">
-              <ul>
-                <li>Frankfurt Summer School (Eltville, Aug 2024)</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    
+        <div class="subsection">
+            <a href="doc\research\Agarwal-Suarez_Carbon-disclosures.pdf" target="_blank"><paper>Climate conscious investors, carbon disclosures, and efficiency</paper></a>&nbsp;&nbsp;
+            <coauth>(w/ J. Suarez)</coauth><br>
+            June 2024<br>
+            <a class="more" onclick="showhide('abs_as')">Abstract</a>&nbsp;
+            <p id="abs_as" class="abstract" style="display:none">
+                We analyze whether carbon disclosures can substitute for carbon emission taxation when emissions generate negative externalities. In our setup, climate conscious investors adjust their funding terms based on their beliefs about firms' carbon intensities, which firms can choose to disclose at a cost. In equilibrium, the least carbon-intensive firms disclose and are financed at terms based on their carbon intensity, while non-disclosing firms are financed at more expensive pooling terms. Encouraging disclosures reduces investment and therefore emissions by non-disclosing firms, but may increase investment and emissions by newly disclosing firms, overall having ambiguous effects on total emissions and social welfare.
+            </p>          
+       </div>
     </div>
-    
-    <div class="research-item">
-      <h3><a href="doc\research\Agarwal-Suarez_Carbon-disclosures.pdf" target="_blank">Climate conscious investors, carbon disclosures, and efficiency</a></h3>
-      <!-- <h3>Climate conscious investors, carbon disclosures, and efficiency</h3> -->
-      <h4>with Javier Suarez (CEMFI)</h4>
-      <!-- <div class="date">March 2017 | <a href="http://www.nber.org/papers/w23280" target="_blank">NBER Working Paper 23280</a> | <a href="http://cepr.org/active/publications/discussion_papers/dp.php?dpno=11919" target="_blank">CEPR Discussion Paper 11919</a> | <a href="doc/research/esrbwp40.en.pdf" target="_blank">ESRB Working Paper 40</a> | Resubmission requested</div> -->
-      <div class="date">June 2024</div>
-
-      <div class="abstract">
-        <div class="wrap-collabsible">
-          <input id="col-abs-eba" class="toggle" type="checkbox">
-          <label for="col-abs-eba" class="lbl-toggle">Abstract</label>
-          <div class="collapsible-content">
-            <div class="content-inner">
-              We analyze whether carbon disclosures can substitute for carbon emission taxation
-              when emissions generate negative externalities. In our setup, climate conscious investors 
-              adjust their funding terms based on their beliefs about firms' carbon intensities,
-              which firms can choose to disclose at a cost. In equilibrium, the least carbon-intensive
-              firms disclose and are financed at terms based on their carbon intensity, while non-disclosing
-              firms are financed at more expensive pooling terms. Encouraging disclosuresreduces 
-              investment and therefore emissions by non-disclosing firms, but may increase investment 
-              and emissions by newly disclosing firms, overall having ambiguous effects on total 
-              emissions and social welfare.
-            </div>
-          </div>
+        <div class="section">
+            <h1>Work in progress</h1>
+            <div class="subsection">
+            <paper>Interest rate risk and bank capital requirements</paper>&nbsp;&nbsp;
+            <coauth>(w/ J. Schaefer)</coauth><br>
+            <a class="more" onclick="showhide('abs_irr')">Abstract</a>&nbsp;
+            <p id="abs_irr" class="abstract" style="display:none">
+                We develop a quantitative general equilibrium model of risky banks with a bond portfolio subject to interest rate risk and consider the implications of having the unrealized capital gains or losses of such a portfolio excluded from (amortized-cost accounting) or included in (fair-value accounting) the definition of regulatory capital. We show that when the unrealized gains or losses are excluded, banks are better isolated from short-term volatility in securities returns, resulting in a smoother credit supply. However, this accounting treatment increases the probability of bank failure during prolonged periods of intense monetary policy tightening. Under our calibration, amortized-cost accounting is superior to fair-value accounting in welfare terms.
+            </p>
         </div>
-      </div>
-  
-      <div class="presentations">
-        <div class="wrap-collabsible">
-          <input id="col-pres-2" class="toggle" type="checkbox">
-          <label for="col-pres-2" class="lbl-toggle">Presentations</label>
-          <div class="collapsible-content">
-            <div class="content-inner">
-              <ul>
-                <li>6th Endless Summer Conference on Financial Intermediation and Corporate Finance (Athens, Sept 2024) (co-author)</li>
-                <li>31st Finance Forum (San Cristóbal de La Laguna, July 2024) (co-author)</li>
-                <li>SAFE Brown Bag (Frankfurt, April 2024)</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
-
-  </div>
-
-    <hr class="section-divider">
-
-  <div class="research res-main-col">
-
-    <h2>Work in progress</h2>
-
-    <div class="research-item">
-      <!-- <h3><a href="" target="_blank">Climate conscious investors, carbon disclosures, and efficiency</a></h3> -->
-      <h3>Interest rate risk and bank capital requirements</h3>
-      <h4>with Jan Schaefer (CEMFI)</h4>
-      <!-- <div class="date">March 2017 | <a href="http://www.nber.org/papers/w23280" target="_blank">NBER Working Paper 23280</a> | <a href="http://cepr.org/active/publications/discussion_papers/dp.php?dpno=11919" target="_blank">CEPR Discussion Paper 11919</a> | <a href="doc/research/esrbwp40.en.pdf" target="_blank">ESRB Working Paper 40</a> | Resubmission requested</div> -->
-      <div class="date">Work in progress</div>
-
-      <div class="abstract">
-        <div class="wrap-collabsible">
-          <input id="col-abs-irr" class="toggle" type="checkbox">
-          <label for="col-abs-irr" class="lbl-toggle">Abstract</label>
-          <div class="collapsible-content">
-            <div class="content-inner">
-              We examine optimal accounting rules for computing regulatory capital in a quantitative 
-              general equilibrium model with bank defaults. Our framework bifurcates the asset side of 
-              banks’ balance sheet into interest rate-sensitive securities and credit-risky loans.
-              Accounting rules determine whether gains or losses on the former class of assets affect
-              regulatory bank capital. We show that when regulatory capital is computed under
-              book value accounting, where unrealized gains or losses are excluded, banks absorb
-              short-term volatility in securities returns, resulting in a smoother credit supply. 
-              However, prolonged periods of monetary policy tightening features a higher risk of bank 
-              failures, when compared to a regulatory regime based on fair value (or mark-to-market) 
-              accounting of banks’ equity. Banks’ responses to interest rate risk under these regimes
-              are asymmetric, depending on whether they have accumulated gains or losses on their
-              securities portfolio. Our welfare analysis suggests that book value capital requirements 
-              are superior, with an optimal capital charge of approximately 13%.
-            </div>
-          </div>
-        </div>
-      </div>
-    
-      <div class="presentations">
-        <div class="wrap-collabsible">
-          <input id="col-pres-3" class="toggle" type="checkbox">
-          <label for="col-pres-3" class="lbl-toggle">Presentations</label>
-          <div class="collapsible-content">
-            <div class="content-inner">
-              <ul>
-                <li>SAFE Offsite (Grünberg, March 2024)</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  
-  </div>
-
-</div>
-
-<p><p><p><p>
-
-</div>
-
-  <!-- Footer -->
-  <div class="footer">
-  </div>
-
-</div>
 
 </body>
-
+<script src="css/jsfile.js"></script>
 </html>
