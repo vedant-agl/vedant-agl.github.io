@@ -251,6 +251,7 @@ a.pdf::before,
 a.about::before,
 a.research::before,
 a.policy::before,
+a.teaching::before,
 a.link::before,
 a.more::before,
 a.less::before{
@@ -262,8 +263,9 @@ padding:0px;
 }
 a.pdf::before{      content: "\f1c1 ";}
 a.about::before{    content: "\f2bc ";}
-a.research::before{ content: "\f19d ";}
+a.research::before{ content: "\f0eb ";}
 a.policy::before{   content: "\f19c ";}
+a.teaching::before{  content: "\f02d "; }
 a.link::before{   content: "\f08e ";}
 a.more::before{     content: "\f196 ";}
 a.less::before{     content: "\f147 ";}
